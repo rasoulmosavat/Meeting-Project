@@ -1,9 +1,3 @@
-
-# meeting-project
-
-# routes\web.php
-
-
 <div>
 <p>migrations</p>
 ```

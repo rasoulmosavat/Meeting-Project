@@ -1,8 +1,7 @@
 <h2> Meeting Project</h2>
-<p>Title: Create a project to get suggestions for suitable meeting times.</p>
+<p>Create a project to get suggestions for suitable meeting times.</p>
 
 Framework: Laravel v9.19.0
-Application : HTTP API
 
 <div>
 <h4>Migrations</h3>
@@ -20,12 +19,11 @@ Application : HTTP API
 
         });
 ```
-```
 </div>
 
 <div>
 <h4>ImportController</h4>
-<p>The fillowing functions will be eploded and saved the data in database</p>
+<p>The following functions will be exploded and recorded data in database</p>
 
 ```
 class ImportController extends Controller
@@ -57,13 +55,11 @@ class ImportController extends Controller
         }
     }
 }
-
 ```
-
 
 <div>
 <h4>SearchController</h4>
-<p>Using the fillowing function to fetch data(Meeting Times) from the database</p>
+<p>Using the following function to fetch data(Meeting Times) from the database</p>
 
 ```
 class SearchController extends Controller
@@ -81,8 +77,6 @@ class SearchController extends Controller
         return $meetings;
     }
 }
-
-
 ```
 </div>
 
@@ -100,6 +94,5 @@ class SearchController extends Controller
 <p>2- Use Postman to test api</p>
 <p>3- Send your request by the following Json format.You can send different ID and a Date.</p>
     
-
-         ![Screenshot 2022-08-01 114210](https://user-images.githubusercontent.com/74821847/182133663-81ec9ae4-2f87-4cea-8968-6fbb800f4055.jpg)
+![Screenshot 2022-08-01 114210](https://user-images.githubusercontent.com/74821847/182133996-fdfb12c0-8f72-4576-97da-a92acb52c429.jpg)
 

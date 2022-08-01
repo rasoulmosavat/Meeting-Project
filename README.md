@@ -91,7 +91,7 @@ class SearchController extends Controller
 <h2> How to Run the Project</h2>    
    
 <p>1- Using XAMPP or WAMP to run the project.</p>
-<p>2- Use Postman to test api</p>
+<p>2- Use Postman to test the project</p>
 <p>3- Send your request by the following Json format.You can send different ID and a Date.</p>
     
 ![Screenshot 2022-08-01 114210](https://user-images.githubusercontent.com/74821847/182133996-fdfb12c0-8f72-4576-97da-a92acb52c429.jpg)

@@ -1,6 +1,12 @@
+<h2> Meeting Project</h2>
+<p>Title: Create a project to get suggestions for suitable meeting times.</p>
+
+Framework: Laravel v9.19.0
+Application : HTTP API
+
 <div>
-<p>migrations</p>
-```
+<h4>Migrations</h3>
+    
 ```
      Schema::create('meetings', function (Blueprint $table) {
             $table->id();
@@ -21,7 +27,6 @@
 <h4>ImportController</h4>
 <p>The fillowing functions will be eploded and saved the data in database</p>
 
-```
 ```
 class ImportController extends Controller
 {
@@ -54,14 +59,12 @@ class ImportController extends Controller
 }
 
 ```
-```
 
 
 <div>
 <h4>SearchController</h4>
 <p>Using the fillowing function to fetch data(Meeting Times) from the database</p>
 
-```
 ```
 class SearchController extends Controller
 {
@@ -81,7 +84,6 @@ class SearchController extends Controller
 
 
 ```
-```
 </div>
 
 
@@ -91,9 +93,13 @@ class SearchController extends Controller
 
 <p>Useing the following route to fetch data from database</p>
 <p>Route::get('/search',[SearchController::class,'index']);</p>
+    
+<h2> How to Run the Project</h2>    
+   
+<p>1- Using XAMPP or WAMP to run the project.</p>
+<p>2- Use Postman to test api</p>
+<p>3- Send your request by the following Json format.You can send different ID and a Date.</p>
+    
 
+         ![Screenshot 2022-08-01 114210](https://user-images.githubusercontent.com/74821847/182133663-81ec9ae4-2f87-4cea-8968-6fbb800f4055.jpg)
 
-<img src="{{asset('/storage/images/postman.jpg')}}">
-
-                  
-                         
